@@ -1,0 +1,7 @@
+#Robots.txt
+User-agent: *
+Allow: /
+Sitemap: #sitemap.xml
+Disallow: /cgi-bin/    # keep robots out of the executable tree
+
+Disallow: /temp/   # temp directory
